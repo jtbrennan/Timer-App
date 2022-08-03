@@ -269,7 +269,7 @@ button {
 
 /* 6 */
 .btn-6 {
-   background: #000;
+   background: #000000;
   color: #fff;
   line-height: 42px;
   padding: 0;
@@ -342,7 +342,7 @@ button {
 
 body
 {
-  background-color:#868686;
+  background-color:#2e2e2e;
   font-family: 'RobotoDraft', 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -358,6 +358,7 @@ h5
   margin:0px;
   font-size:2.5em;
   font-weight:700;
+  color: #7d7dff;
 }
 
 p
@@ -393,8 +394,8 @@ p
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius:16px;
   overflow:hidden;
-  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #f7f7f7;
-  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #f7f7f7;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #788aed;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #788aed;
 }
 
 .property-image
@@ -455,3 +456,4 @@ font-size:1.2em;
 {
 opacity:1;
 }
+
