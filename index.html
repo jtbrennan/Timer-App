@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Timer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+    <div class="frame">
+    <button class="custom-btn btn-6" onclick="startTimer();"><span>Start</span></button>
+    <button class="custom-btn btn-6" onclick="timerStop();"><span>Reset</span></button>
+    
+    </div>      
+    <div class="center">
+      <div class="property-card">
+          <div class="property-image">
+            <div class="property-image-title">
+              <h5 id="timerValue">0</h5> 
+            </div>
+          </div></a>
+        <div class="property-description">
+          <br>
+          <br>
+          <h5 id="timerValue2"> 0 </h5>
+        </div>
+        </a>
+      </div>
+    </div>    
+    <br id="heightAdjustment">
+<!--     <progress value="0" max="60" id="progressBar"></progress> -->
+  <br>
+  <div class="frame">
+    <button class="custom-btn btn-1" onclick="thirtySec();">30s</button>
+    <button class="custom-btn btn-2" onclick="sixtySec()">60s</button>
+    <button class="custom-btn btn-3" onclick="fiveMin()"><span>5m</span></button>
+    <button class="custom-btn btn-4" onclick="tenMin()">10m</button>
+  </div>
+  <br>
+  <br>
+  <div id="author" align="center">By: John Brennan</div>
+</body>
+
+</html>
