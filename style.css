@@ -6,45 +6,6 @@
   height: 200px;
 }
 
-/* For Firefox */
-progress::-moz-progress-bar {
-  background-image: linear-gradient(to right, #c06efa, #156199);
-  transition: width 3s;
-}
-  
-/* For Chrome or Safari */
-progress::-webkit-progress-value {
-  background-image: linear-gradient(to right, #c06efa, #156199);
-  transition: width 3s;
-}
-  
-/* For IE10 */
-progress {
-  background-image: linear-gradient(to right, #c06efa, #156199);
-  transition: width 3s;
-}
-
-button {
-  display: inline-block;
-  background-color: #5b58fd;
-  border-radius: 10px;
-  border: 4px #cccccc;
-  color: #eeeeee;
-  text-align: center;
-  font-size: 12px;
-  padding: 1%;
-  width: 100px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 0p;
-}
-
-button:hover {
-  background-color: white;
-}
 
 h1 {
   position: relative;
